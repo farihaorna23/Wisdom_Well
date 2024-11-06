@@ -44,3 +44,53 @@ body{
     padding: 0.5em 1em;
     border-radius: 0.3em;
 }
+
+/* For small screen */
+/* For Mobile Screen */
+@media (max-width: 576px){
+    .title{
+        font-size: 3.5rem;
+        margin: 0.5em;
+    }
+
+    .quote-container{
+        font-size: 2.5rem;
+        margin: 2.5em 1em
+    }
+
+    .button-container{
+        justify-content: space-evenly;
+        margin-top: 10em;
+    }
+    
+    .btn{
+        font-size: 1.3rem;
+        padding: 0.5em 1em;
+        border-radius: 0.3em;
+    }
+
+}
+
+/* For even smaller screen */
+@media (min-width:344px) and (max-width:390px){
+    .title{
+        font-size: 3rem;
+        margin: 0.5em;
+    }
+
+    .quote-container{
+        font-size: 2em;
+        margin: 2.5em 1em
+    }
+
+    .button-container{
+        justify-content: space-evenly;
+        margin-top: 10em;
+    }
+    
+    .btn{
+        font-size: 1.2em;
+        padding: 0.5em 1em;
+        border-radius: 0.3em;
+    }
+}
