@@ -1,6 +1,7 @@
 //DOM Element
 const quoteContainer = document.querySelector('.quote-container')
 const quote = document.querySelector(".quote")
+const generateQuoteBtn = document.querySelector(".generate-quote-btn") 
 
 //Variables
 let url = "http://api.quotable.io/random"
@@ -22,3 +23,13 @@ const fetchQuote = async() => {
   let data = await fetchQuote()
   quote.textContent = `${data.text} ~ ${data.author}`
  })()
+
+
+ //This function would call the api for random quote and diplay it when clicked
+const generateQuoteBtnHandler = async() => {
+  let data = await fetchQuote()
+  quote.textContent = `${data.text} ~ ${data.author}`
+}
+
+ //event listeners
+generateQuoteBtn.addEventListener("click",generateQuoteBtnHandler)

@@ -60,7 +60,7 @@ body{
 
     .button-container{
         justify-content: space-evenly;
-        margin-top: 10em;
+        margin-top: 6em;
     }
     
     .btn{
@@ -74,18 +74,18 @@ body{
 /* For even smaller screen */
 @media (min-width:344px) and (max-width:390px){
     .title{
-        font-size: 3rem;
+        font-size: 2.5rem;
         margin: 0.5em;
     }
 
     .quote-container{
         font-size: 2em;
-        margin: 2.5em 1em
+        margin: 1em 1em
     }
 
     .button-container{
         justify-content: space-evenly;
-        margin-top: 10em;
+        margin-top: 6em;
     }
     
     .btn{
