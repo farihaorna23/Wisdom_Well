@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #B9E5E8;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Header Section */
+.decorative-navbar{
+  width: 100%;
+  min-height: 8vh;
+  background-color: #4A628A;
+}
+
+.title{
+  text-align: center;
+  font-size: 4rem;
+  margin: 0.5em;
+}

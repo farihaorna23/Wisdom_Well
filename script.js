@@ -2,6 +2,7 @@
 const quoteContainer = document.querySelector('.quote-container')
 const quote = document.querySelector(".quote")
 const generateQuoteBtn = document.querySelector(".generate-quote-btn") 
+const saveQuoteBtn = document.querySelector(".save-quote-btn")
 
 //Variables
 let url = "http://api.quotable.io/random"
@@ -31,5 +32,8 @@ const generateQuoteBtnHandler = async() => {
   quote.textContent = `${data.text} ~ ${data.author}`
 }
 
+
+
  //event listeners
 generateQuoteBtn.addEventListener("click",generateQuoteBtnHandler)
+saveQuoteBtn.addEventListener("click",saveQuoteBtnHandler)

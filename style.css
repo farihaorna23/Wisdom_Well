@@ -45,6 +45,11 @@ body{
     border-radius: 0.3em;
 }
 
+a {
+    text-decoration: none; 
+    color: inherit;        
+}
+
 /* For small screen */
 /* For Mobile Screen */
 @media (max-width: 576px){
