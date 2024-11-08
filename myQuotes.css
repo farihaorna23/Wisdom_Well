@@ -16,6 +16,20 @@ body{
   width: 100%;
   min-height: 8vh;
   background-color: #4A628A;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+a{
+  text-decoration: none; 
+  color: white;
+  font-size: 1.4rem;
+  margin-right: 1em;        
+}
+
+a:hover{
+  text-decoration: underline;
 }
 
 .title{
@@ -23,3 +37,5 @@ body{
   font-size: 4rem;
   margin: 0.5em;
 }
+
+
