@@ -37,14 +37,16 @@ const generateQuoteBtnHandler = async() => {
 
 //This function would store the current quote in local storage
 const saveQuoteBtnHandler = () => {
+  //get the current quote
   let current_quote = quote.textContent;
-  quoteID += 1
-  localStorage.setItem(`${quoteID}`, `${current_quote}`);
-  // console.log(localStorage.getItem(`${quoteID}`))
-  myQuote.push({"quote":`${current_quote}`, "quote_id":`${quoteID}`})
+  //Initialize a new array if no prior quote has been saved or retrive the array with all the saved quotes
+  let savedQuotesArray = JSON.parse(localStorage.getItem("savedQuotes")) || []
+  //add the new quote to the array
+  savedQuotesArray.push(current_quote)
+  //now save the updated array back to local storage  
+  localStorage.setItem("savedQuotes",JSON.stringify(savedQuotesArray));
 }
 
-// Does wisdom perhaps appear on the earth as a raven which is inspired by the smell of carrion? ~ Friedrich Nietzsche
 
  //event listeners
 if (generateQuoteBtn ){
