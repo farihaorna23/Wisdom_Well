@@ -38,4 +38,36 @@ a:hover{
   margin: 0.5em;
 }
 
+.saved-quotes-container{
+  width: 95%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.saved-quote{
+  background-color: white;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 1em 2em;
+  border-radius: 1.5em;
+  margin:3em;
+}
+
+/* For small screen */
+/* For Mobile Screen */
+@media (max-width: 576px){
+  .title{
+      font-size: 3.5rem;
+      margin: 0.5em;
+  }
+}
+
+/* For even smaller screen */
+@media (min-width:344px) and (max-width:390px){
+  .title{
+      font-size: 2.5rem;
+      margin: 0.5em;
+  }
+}
+
 
