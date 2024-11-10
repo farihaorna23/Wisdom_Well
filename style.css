@@ -61,6 +61,27 @@ a:hover{
     user-select: none; 
 }
 
+/* For the My Saved Quote Page */
+.saved-quote-title{
+    text-align: center;
+    font-size: 4rem;
+    margin: 0.5em;
+  }
+  
+  .saved-quotes-container{
+    width: 95%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .saved-quote{
+    background-color: white;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 1em 2em;
+    border-radius: 1.5em;
+    margin:3em;
+  }
 
 /* For small screen */
 /* For Mobile Screen */
@@ -86,6 +107,11 @@ a:hover{
         border-radius: 0.3em;
         cursor: default;
     }
+
+    .saved-quote-title{
+        font-size: 2.5rem;
+        margin: 0.5em;
+    }
 }
 
 /* For even smaller screen */
@@ -109,5 +135,10 @@ a:hover{
         font-size: 1.2em;
         padding: 0.5em 1em;
         border-radius: 0.3em;
+    }
+
+    .saved-quote-title{
+        font-size: 2.5rem;
+        margin: 0.5em;
     }
 }
