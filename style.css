@@ -59,10 +59,15 @@ a:hover{
     border-radius: 0.3em;
     cursor: default;
     user-select: none; 
+    transition: transform 0.5s ease-in-out;
 }
 
 .btn:hover{
     background-color: #F2789F;
+}
+
+.btn:active{
+    transform: scale(1.2);
 }
 
 /* For the My Saved Quote Page */
