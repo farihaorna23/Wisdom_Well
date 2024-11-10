@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #B9E5E8;
+    background-color: #FEE3EC;
     font-family: "Dancing Script", cursive;
     font-weight: bold;
     font-style: normal;
@@ -15,7 +15,7 @@ body{
 .decorative-navbar{
     width: 100%;
     min-height: 8vh;
-    background-color: #4A628A;
+    background-color: #F999B7;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -52,13 +52,17 @@ a:hover{
 }
 
 .btn{
-    background-color: #4A628A;
+    background-color: #F999B7;
     color: white;
     font-size: 2rem;
     padding: 0.5em 1em;
     border-radius: 0.3em;
     cursor: default;
     user-select: none; 
+}
+
+.btn:hover{
+    background-color: #F2789F;
 }
 
 /* For the My Saved Quote Page */
